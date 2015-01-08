@@ -1,3 +1,16 @@
-*, *::before, :before {
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
 
+
+*, *::before, {
+  border: border-box;
+
+}
+
+body {
+  background: url()
+}
+
+.top {
+  font-family: serif;
 }
