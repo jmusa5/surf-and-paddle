@@ -1,8 +1,9 @@
 /* This is confusing the heck out of me */
 
 
-*, {
+* {
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -13,14 +14,21 @@ ul {
   list-style: none;
 }
 
-.header {
-  background-image: url("img/ocean.png");
-  background-size: cover;
-  height: 564px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.mainheader {
+  display: inline;
 
+}
+
+.header {
+  background-image: url("img/header.png");
+  background-size: cover;
+  height: 522px;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+.container {
+  height: 1006px;
 }
 .splogo, .blog, .headerlinks, headerlinks li {
   display: inline;
@@ -59,19 +67,21 @@ ul {
 }
 
 .lbar {
-  max-width: 616px;
+  margin: 0;
+  display: inline-block;
+  max-width: 860px;
   text-align: left;
   height: 1007px;
-  width: 860px;
+  color: black;
 }
 
 .rbar {
-  position: static;
-  top: -522px;
-  right: 161px;
-  display: block;
+  margin: 0;
+  display: inline-block;
   height: 1007px;
-  width: 440px;
+  max-width: 440;
+  color: black;
+
 }
 
 .prefooter, .footer {
