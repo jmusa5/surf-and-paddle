@@ -22,11 +22,9 @@ ul {
   background-attachment: fixed;
 
 }
-.splogo, .blog, .headerlinks, headerlinks li, .rbar {
+.splogo, .blog, .headerlinks, headerlinks li {
   display: inline;
 }
-
-
 
 .splogo {
   display: inline;
@@ -50,13 +48,14 @@ ul {
 }
 
 .surf {
-  display: inline;
   font-size: 80px;
   color: white;
   }
 
 .iron {
-  font-size: 11px;
+  font-size: 13px;
+  color: black;
+  padding: 50px;
 }
 
 .lbar {
@@ -77,6 +76,7 @@ ul {
 
 .prefooter, .footer {
   display: inline;
+  color: black;
 }
 
 .paddle {
