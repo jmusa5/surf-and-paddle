@@ -1,129 +1,74 @@
-/* font-family: 'Oswald', sans-serif;
-font-family: 'Open Sans', sans-serif;
-browser reset =============================
+/*browser reset =============================*/
 
-http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-HTML5 display-role reset for older browsers
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-browser reset ==========================================
+/* browser reset ==========================================*/
+
+
+
+
+
+
+
+
 
 
 *, {
   box-sizing: border-box;
-
-}
-
-body {
-  width: 1200px;
-  height: 2104px;
-}
-
-header {
-  height: -225px;
-  width: auto;
-  background-image: url("img/ocean.png");
-  background-size: cover;
-  background-repeat:repeat;
-  position: relative;
-}
-
-.surf {
-  background: img("img/ocean.png");
-  position: relative;
-  top: -225px;
-}
-
-.top {
-  display: block;
-  display: inline-block;
-  border: 1px solid black;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  text-align: right;
-  position: relative;
-}
-
-
-coname {
-  text-align: center;
-  color: white;
-  font-family: 'Oswald', sans-serif;
 }
 
 ul {
-  border: 1px solid black;
-  list-style:none;
-  display: inline-block;
-  text-align: right;
+  list-style: none;
+}
+
+.header {
+  background-image: url("img/ocean.png");
+  background-size: cover;
+  width: 100%;
+  height: 524px;
+  background-repeat: no-repeat;
 
 }
 
-#1 {
-  border: 1px solid black;
-  text-align: right;
+.splogo {
+  position: relative;
+  height: -20px;
+  left: 20px;
+  background-image: url("img/logo.png");
+  text-align: left;
+  background-repeat: no-repeat;
+}
 
-h1 {
-  height: 400px;
-  margin: 0 auto;
+.headerlinks {
+  text-align: right;
+}
+.coname {
+  text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
+.surf {
+  font-size: 78px;
 }
 
-.content {
+.iron {
+  font-size: 11px;
+}
+
+.lbar {
+  text-align:
+  height: 1007px;
+  width: 1300px;
   border: 1px solid black;
-
-  font-family: 'open sans', sans-serif;
 }
 
-.nav {
+.rpic {
+  position: static;
+  top: -522px;
+  right: 161px;
   display: block;
-  float: right;
-
+  height: 1007px;
+  width: 440px;
+  border: 1px solid black;
+  ;
 }
- */
