@@ -1,21 +1,10 @@
-/*browser reset =============================*/
-
-
-
-/* browser reset ==========================================*/
-
-
-
-
-
-
-
-
+/* This is confusing the heck out of me */
 
 
 *, {
   box-sizing: border-box;
 }
+
 
 ul {
   list-style: none;
@@ -27,17 +16,21 @@ ul {
   width: 100%;
   height: 524px;
   background-repeat: no-repeat;
+  position: relative;
+  padding: 7px;
 
+}
+.splogo, .blog, .headerlinks, .coname, .rbar {
+  display: inline;
 }
 
 .splogo {
-  position: relative;
-  height: -20px;
   left: 20px;
   background-image: url("img/logo.png");
   text-align: left;
   background-repeat: no-repeat;
 }
+
 
 .headerlinks {
   text-align: right;
@@ -48,21 +41,24 @@ ul {
 }
 
 .surf {
-  font-size: 78px;
-}
+  display: inline;
+  font-size: 80px;
+  color: white;
+  }
 
 .iron {
   font-size: 11px;
 }
 
 .lbar {
-  text-align:
+  max-width: 616px;
+  text-align: left;
   height: 1007px;
-  width: 1300px;
+  width: 860px;
   border: 1px solid black;
 }
 
-.rpic {
+.rbar {
   position: static;
   top: -522px;
   right: 161px;
@@ -71,4 +67,12 @@ ul {
   width: 440px;
   border: 1px solid black;
   ;
+}
+
+.prefooter, .footer {
+  display: inline;
+}
+
+.paddle {
+  background-image: url("img/boho-1.jpg");
 }
