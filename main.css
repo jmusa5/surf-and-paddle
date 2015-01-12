@@ -19,6 +19,7 @@ ul {
   height: 564px;
   width: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 .splogo, .blog, .headerlinks, headerlinks li, .rbar {
@@ -43,6 +44,8 @@ ul {
 }
 .coname {
   text-align: center;
+  font-size: 80px;
+  margin: 5px;
   font-family: 'Oswald', sans-serif;
 }
 
