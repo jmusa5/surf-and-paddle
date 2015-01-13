@@ -1,9 +1,9 @@
-/* This is confusing the heck out of me */
+/* This is confusing the heck out of me*/
 
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid gray;
 }
 
 body {
@@ -11,16 +11,12 @@ body {
   color: #fff;
 }
 ul {
-  list-style: none;
-}
-
-.mainheader {
   display: inline;
-
+  : none;
 }
 
 .header {
-  background-image: url("img/header.png");
+  /* background-image: url("img/homeheader.png"); */
   background-size: cover;
   height: 522px;
   background-repeat: no-repeat;
@@ -31,22 +27,27 @@ ul {
   height: 872px;
   width: 978px;
 }
-.splogo, .blog, .headerlinks, headerlinks li {
-  display: inline;
-}
+
 
 .splogo {
-  display: inline;
-  background-image: url("img/logo.png");
+  display: inline-block;
   background-repeat: no-repeat;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  margin-left: 127px;
+  margin-top: 5px;
+  color: #07354F;
 }
 
+.blog {
+  display: inline-block;
+  font-size: 13px;
+  padding-top: 17px;
+  color: #07354F;
+}
 
 .headerlinks {
   display: inline;
   text-align: right;
+  color: #07354F;
 
 }
 .coname {
@@ -63,8 +64,7 @@ ul {
 
 .iron {
   font-size: 13px;
-  color: black;
-  padding: 50px;
+  color: #083753;
 }
 
 .lbar {
@@ -76,8 +76,7 @@ ul {
 }
 
 .rbar {
-  margin: 0;
-  display: inline;
+  display: inline-block;
   height: 1007px;
   max-width: 440;
   color: black;
@@ -85,14 +84,26 @@ ul {
 }
 
 .prefooter, .footer {
-  display: inline;
-  color: black;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.footer {
+
+  background-color:  #0062AA;
+  height: 97px;
+  background-size: cover;
+  background-position: center center;
 }
 
 .paddle {
   background-image: url("img/boho-1.jpg");
 }
 
-.nav  {
-  display: inline;
+.nav {
+  margin-right: 10px;
+  display: inline-block;
+  color: black;
+
 }
